@@ -1,0 +1,36 @@
+### Take book
+POST localhost:8080/student-book/taking-book
+Content-Type: application/json
+
+{
+  "studentId": {
+    "id": 2
+  },
+  "bookId": {
+    "id": 3
+  }
+}
+
+### Returning book
+PUT localhost:8080/student-book/returning-book/1
+Content-Type: application/json
+
+### GET ALL
+GET localhost:8080/student-book/all
+
+### GET BOOK BY ID
+GET localhost:8080/student-book/2
+
+###  return all student taken book
+GET localhost:8080/student-book/student/1
+
+### Return All Book Taken List
+GET localhost:8080/student-book/book/taking-book-list
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+
+### Add student
+POST localhost:8080/student/add
+Content-Type: application/json
+
+{
+  "name": "Vali",
+  "surname": "Valiyev",
+  "phone": "465"
+}
+
+### Get student list
+GET localhost:8080/student/all
+
+### Get student by id
+GET localhost:8080/student/2
+
+### delete student by id
+DELETE localhost:8080/student/10
+
+### Update student by id
+PUT localhost:8080/student/update/2
+Content-Type: application/json
+
+{
+  "name": "Vali",
+  "surname": "Valiyev",
+  "phone": "1234"
+}

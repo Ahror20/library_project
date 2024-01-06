@@ -1,0 +1,27 @@
+### Create book
+POST localhost:8080/book/add
+Content-Type: application/json
+
+{
+  "title": "Nub",
+  "author": "Enrique"
+}
+
+
+### Get all book
+GET localhost:8080/book/all
+
+### Get book by id
+GET localhost:8080/book/2
+
+### Delete book by id
+DELETE localhost:8080/book/38
+
+### Update book by id
+PUT localhost:8080/book/update/35
+Content-Type:  application/json
+
+{
+  "title": "hsaf",
+  "author": "jfq"
+}
